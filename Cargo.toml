@@ -1,9 +1,10 @@
 [package]
 name = "url-dev-resolver"
 version = "0.1.0"
-authors = ["Kyle <arow411@gmail.com>"]
+authors = ["Kyle <kgray@kari.dev>"]
 edition = "2018"
 
 [dependencies]
+redis = "0.12.0"
 hyper = "0.12"
 futures = "0.1"
